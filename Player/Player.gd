@@ -56,7 +56,7 @@ func _physics_process(delta):
 		
 	move_and_slide(velocity, Vector3.UP, false)
 
-#butt
+#butt cool
 func _input(event):
 	if event.is_action_pressed("GRAV") && !gravButtonHeld:
 		$CollisionShape.disabled = gravityEnabled
